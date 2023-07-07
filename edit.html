@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Socket.IO Multiplayer Demo</title>
+    <link href="styles/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="titleDiv"><a href="http://jovianlabs.io">JovianLabs.IO</a> Project Z Editor</div>
+    <canvas id="gameCanvas" class="editor" width="512" height="464"></canvas>
+    <div id="mapTiles"><img id="tiles" src="images/overworldtiles.png" /><br /><div id="tileNum"></div></div>
+    <div><button onclick="zelda.submitMap();">Save</button></div>
+    <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.7/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/worldmap.js"></script>
+    <script src="scripts/resources.js"></script>
+    <script src="scripts/graphics.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/input.js"></script>
+    <script src="scripts/entity.js"></script>
+    <script src="scripts/enemy.js"></script>
+    <script src="scripts/character.js"></script>
+    <script src="scripts/editor.js"></script>
+</body>
+</html>
